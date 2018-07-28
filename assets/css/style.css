@@ -11,7 +11,7 @@
 
 .wrapper {
     min-height: 100%;
-    margin-bottom: -60px;
+    margin-bottom: 250px;
 }
 .mainHeader {
     background-color: #4aaaa5;
@@ -23,15 +23,14 @@
     position: relative;
     float: left;
     line-height: 90px;
-    font-size: 24px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .topBar {
     width: 960px;
     height: 90px;
     position: relative;
-    /* border: 2px solid black; */
-    /* display: inline-block;  */
     margin: auto;  
 }
 
@@ -53,8 +52,6 @@
     color: #777777;
     position: relative;
     padding: 37px 0;
-    /* padding: 35px; */
-    /* margin: auto; */
 }
 
 a:link {
@@ -77,7 +74,7 @@ body {
     height: 500px;
     width: 960px;
     background-color: white;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 40px auto;
 }
 .aboutMe {
@@ -87,14 +84,6 @@ body {
     line-height: 100%;
     padding: 30px 0;
 }
-
-/* nav {
-    column-count: 3; */
-    /* column-rule-style: 5px solid #777777;
-    float: right;
-    position: relative;
-    width: 250px;
-} */
 
 .aboutHead {
     color: #4aaaa5;
@@ -125,8 +114,12 @@ footer {
     text-align: center;
     line-height: 60px;
     position: sticky;
-    bottom: 0; 
+    bottom: 0;
 }
+
+/* .push {
+    height: 60px;
+} */
 
 
 /* measurements: 
