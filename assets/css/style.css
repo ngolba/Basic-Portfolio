@@ -1,4 +1,6 @@
 
+
+/* Basic Reset */
 * {
     margin: 0;
     padding: 0;
@@ -9,10 +11,12 @@
     background: transparent;
 }
 
+/* This is magic and I don't understand it */
 .wrapper {
     min-height: calc(100vh - 100px);
 }
 
+/* Top Bar for all pages */
 .mainHeader {
     background-color: #4aaaa5;
     color: white;
@@ -42,11 +46,9 @@
 .navBar {
     width: 250px;
     float: right;
-    /* border: 2px solid black; */
     column-count: 3;
     column-rule: 1px solid #ededed;
     font-family: Arial, Helvetica, sans-serif;
-    /* font-weight: bold; */
     font-size: 15px;
     text-align: center;
     color: #777777;
@@ -54,6 +56,7 @@
     padding: 37px 0;
 }
 
+/* Get rid of stock link formatting */
 a:link {
     text-decoration: none;
     color: #777777;
@@ -65,18 +68,17 @@ a:visited {
 
 body {
    background-image: url("../images/dust_scratches.png");
-   /* height: 100%; */
    margin: 0;
-
 }
 
 .aboutBox {
     height: 500px;
     width: 960px;
     background-color: white;
-    /* border: 2px solid black; */
     margin: 40px auto;
 }
+
+/* Header and top section for all three pages. */
 
 .aboutMe, .portfolioHead, .contactHeader  {
     width: 900px;
@@ -91,6 +93,7 @@ body {
 }
 
 
+/* Magic footer. Don't breath on it or it'll break again. */
 
 footer {
     height: 60px;
@@ -100,7 +103,6 @@ footer {
     border-top: 10px solid #4aaaa5;
     text-align: center;
     line-height: 60px;
-    /* position: relative; */
     bottom: 0;
 }
 
@@ -150,7 +152,6 @@ footer {
     position: relative;
     height: 60px;
     text-align: center;
-    /* border: 2px solid black; */
     top: 130px;
     background-color: #4aaaa5;
     color: white;
@@ -201,6 +202,7 @@ form h1 {
     font-weight: 500;
 }
 
+/* Top margin larger for first box than proceeding */
 #nameHeader {
     margin-top: 30px;
 }
@@ -216,6 +218,9 @@ form h1 {
     /* margin-left: 30px; */
     margin-top: 20px;
 }
+
+
+/* Nonsense working notes  */
 
 /* measurements: 
     cat picture: 135px X 100px  
